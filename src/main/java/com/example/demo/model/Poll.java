@@ -75,4 +75,5 @@ public class Poll extends UserDateAudit {
         choices.remove(choice);
         choice.setPoll(null);
     }
+
 }

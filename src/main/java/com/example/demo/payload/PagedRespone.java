@@ -10,6 +10,15 @@ public class PagedRespone<T> {
     private int totalPages;
     private boolean last;
 
+    public PagedRespone(List<T> content, int size, int page, long totalElements, int totalPages, boolean last) {
+        this.content = content;
+        this.size = size;
+        this.page = page;
+        this.totalElements = totalElements;
+        this.totalPages = totalPages;
+        this.last = last;
+    }
+
     public List<T> getContent() {
         return content;
     }
