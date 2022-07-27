@@ -1,4 +1,4 @@
-package com.example.demo.payload;
+package com.example.demo.payload.response;
 
 public class JwtAuthenticationResponse {
     private String accessToken;
